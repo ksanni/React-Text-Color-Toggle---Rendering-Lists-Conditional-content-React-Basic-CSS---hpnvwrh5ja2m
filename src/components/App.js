@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import '../styles/App.css';
 
 
@@ -9,9 +9,7 @@ const App = () => {
 const onChangeColor =()=>{
   setColor(!color); 
 };
-const handleOnChange = (event) => {
-  setText(event.target.value);
-};
+
 //code here 
   return (
     <div id="main">
